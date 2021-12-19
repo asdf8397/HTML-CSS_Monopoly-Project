@@ -1,0 +1,90 @@
+h1 {
+    display: inline;
+    margin-right: 300px;
+    height: 300px;
+    color: rgb(106, 128, 255);
+    background-color: pink;
+}
+h1:hover {
+    background-color: indigo;
+    color: white;
+}
+.intro_paragraph_1 {
+    color: goldenrod;
+}
+.intro_paragraph_2 {
+    color: gray;
+}
+#div_box {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+
+    border-bottom: 1px solid black;
+    /* border-radius는 테두리를 둥글게 만드는 속성 */
+    border-radius: 60px;
+    background-image: url(./Universe.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+p{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    width: 300px;
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* text-transform은 대문자를 소문자로 소문자를 대문자로 바꿀때 사용 */
+    line-height: 3;
+    /* 줄 높이 */
+    letter-spacing: -1px;
+    /* 글자 간격 */
+    -webkit-text-stroke: 1px #000;
+    /* -webkit-text-stroke는 여러 브라우저에서 사용할수있게 한다 */
+    /* 빨간색에 검정색 외각선이 들어가서 색이 */
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin-top: 100px;
+    margin-left: 50px;
+
+    transform:skewY(45deg);
+}
+.Write {
+    color: black;
+    text-align: center;
+}
+.Write:hover {
+    color: red;
+    font-size: 32px;
+    -webkit-text-stroke: 1px black;
+    
+    /* transition-property는 hover효과의 반전을 줄때 사용한다. */
+    /* transition-property: color font-size; */
+    /* transition-duration: 1s; */
+
+    /* transition hover의 효과를 줄때 color, font-size */
+    transition: 0.3s;
+    transition-delay: 0.1s;
+}
+
+/* static은 원래의 자기자리에 있는것 */
+span.top{
+    background-color: yellow;
+    position: relative;
+    top: 40px; left: 40px;
+    /* 자기자신의 위치에서 top: 40 left: 40만큼 밀어낸 위치로 이동 */
+}
+span.right{
+    background-color: yellow;
+    position: absolute;
+}
+span.bottom {
+    background-color: yellow;
+}
+span.left{
+    background-color: yellow;
+}

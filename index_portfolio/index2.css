@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    /* .grid head부분으로 부분의 크기를 비율을 나눈다. */
+}
+.sidebar-a{
+    border-top: 1px solid rgb(253, 171, 19);
+    border-bottom: 1px solid rgb(253, 171, 19);
+    height: 100vh;
+}
+.main{
+    border: 1px solid rgb(253, 171, 19);
+    height: 100vh;
+}
+.sidebar-b{
+    border-top: 1px solid rgb(253, 171, 19);
+    border-bottom: 1px solid rgb(253, 171, 19);
+    height: 100vh;
+}
+/* vh는 화면을 기준으로 세로 크기 */
+
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    background-color: skyblue;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.item {
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    border: 1px solid black;
+}

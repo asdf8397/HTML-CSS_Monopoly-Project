@@ -71,7 +71,6 @@ p{
     transition-delay: 0.1s;
 }
 
-/* static은 원래의 자기자리에 있는것 */
 span.top{
     background-color: yellow;
     position: relative;
@@ -88,3 +87,19 @@ span.bottom {
 span.left{
     background-color: yellow;
 }
+
+/* static은 원래의 자기자리에 있는것 */
+/* static 정적인것 아무것도 일어나지 않는다.*/
+/* position: relative - 본인의 위치를 기준으로 top: 40px left: 40px
+    위쪽에서 40만큼 밀고 왼쪽에서 40px만큼 밀어서 위치를 지정한다. */
+/* position: absolute - 지금의 전체화면에서 top: 40px left: 40px 만큼
+    위치를 이동시키는것 전체화면에서 top: 40px만큼 left: 40px만큼 이동한다.*/
+/* position: -webkit-sticky;
+    position: sticky;
+    top: 20px
+    현재의 위치에서 스크롤을 내리면 top: 20px에 고정되서 스크롤 내릴때
+    따라 움직이게 된다. */
+
+
+/* 레이아웃 */
+

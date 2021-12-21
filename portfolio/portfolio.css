@@ -1,0 +1,8 @@
+body{
+    background-color: blanchedalmond;
+}
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}

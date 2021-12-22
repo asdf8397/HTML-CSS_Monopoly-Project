@@ -6,3 +6,38 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+/* navigator */
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.site_name{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.nav_manu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    transition: .3s;
+}

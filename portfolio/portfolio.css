@@ -55,4 +55,78 @@ a:hover{
     font-size: 50px;
 }
 
+.sample{
+    background-color: pink;
+    -webkit-text-stroke: 1px black;
+}
+.simple:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+
+.highlight{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+.highlight:hover{
+    background-color: pink;
+    color: black;
+    transition: none;
+}
+.type1:hover{
+    background-color: yellowgreen;
+}
+.type2:hover{
+    background-color: skyblue;
+}
+.type3:hover{
+    background-color: orange;
+}
+.english-comment{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+
+    letter-spacing: -0.3px;
+}
+
+/* recent works */
+
+.recent-menu{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #C284AB;
+
+    text-align: right;
+    margin-top: 100px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.contact{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #aca0a7;
+    border-top: 1px solid #c2b4ab;
+}
+
+.links {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.links:hover {
+    color: white;
 }

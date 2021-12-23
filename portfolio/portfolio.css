@@ -41,3 +41,18 @@ a:hover{
     color: white;
     transition: .3s;
 }
+
+/* dashboard */
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.korean-comment{
+    font-family: 'Note Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+}
